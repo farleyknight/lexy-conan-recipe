@@ -1,5 +1,6 @@
 *.pyc
 test_package/build
+lexy
 
 # CMake
 CMakeLists.txt.user
