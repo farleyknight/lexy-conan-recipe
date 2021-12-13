@@ -72,6 +72,6 @@ lexy/0.0.0
 
 One potential issue is that `lexy` has no versioning. All development of `lexy` leaves it at `0.0.0`. This seems to prefer by the author.
 
-Because of that, any effort to add versioning at the `conan` package won't worth.
+Because of that, any effort to add versioning at the `conan` package won't be worth it.
 
 Therefore, anyone using this recipe should be ready to (re-)run step 3 with `conan export-pkg . --force`. This will repackage `lexy` with the latest code but still stay at the `0.0.0` version number.
